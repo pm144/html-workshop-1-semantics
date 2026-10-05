@@ -25,7 +25,7 @@
     <div class="card">
       <h2 class="section-title">Обо мне</h2>
 
-      <img src="images/photo.svg" alt="Аватарка, голубой фон синяя фигура человека", class="avatar">
+      <img src="images/photo.svg" alt="Аватарка, голубой фон синяя фигура человека" class="avatar">
 
       <p class="text">
         Верстаю интерфейсы четвёртый год.
@@ -46,8 +46,8 @@
         <li class="skill">CSS и адаптивность</li>
         <li class="skill">Доступность (a11y)</li>
         <li class="skill">Git и командная работа</li>
-        </ul>
-      </div>
+      </ul>
+    </div>
 
     <div class="card">
       <h2 class="section-title">Услуги</h2>
@@ -69,22 +69,27 @@
     <div class="card">
       <h2 class="section-title">Проекты</h2>
 
-      <img src="images/project.svg" class="shot" alt="Главная страница интернет-магазина книг">
-      <caption class="caption">Проект «Букинист», 2025</caption>
+      <figure>
+        <img src="images/project.svg" class="shot" alt="Главная страница интернет-магазина книг">
+        <figcaption class="caption">Проект «Букинист», 2025</figcaption>
+      </figure>
     </div>
 
     <div class="card">
       <h2 class="section-title">Стоимость</h2>
 
-      <caption class="table-title">Стоимость услуг</caption>
+      
 
       <table class="price">
+        <caption class="table-title">Стоимость услуг</caption>
         <thead><tr>
-          <td class="th">Услуга</td>
-          <td class="th">Срок</td>
-          <td class="th">Цена</td>
-        </tr></thead>
-        <tbody><tr>
+          <td class="th" scope="row">Услуга</td>
+          <td class="th" scope="row">Срок</td>
+          <td class="th" scope="row">Цена</td>
+        </tr>
+      </thead>
+        <tbody>
+          <tr>
           <td>Лендинг</td>
           <td>5 дней</td>
           <td>30 000 ₽</td>
@@ -98,7 +103,8 @@
           <td>Аудит доступности</td>
           <td>2 дня</td>
           <td>12 000 ₽</td>
-        </tr></tbody>
+        </tr>
+      </tbody>
       </table>
     </div>
 
@@ -108,7 +114,7 @@
       <button class="btn">Показать контакты</button>
 
       <p class="text">
-        Больше работ — <a href="works.html">портфолио</a>.
+        Больше работ — в <a href="works.html">портфолио</a>.
       </p>
     </div>
 
